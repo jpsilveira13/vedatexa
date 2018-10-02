@@ -2,35 +2,45 @@
     <div id="footer">
         <div class="container">
             <div class="container-rodape">
-                <div class="logo-rodape">
-                    <a href="{{url('/')}}">
-                        <img src="{{url('site/img/footer-logo.png')}}" class="img-fluid pull-left">
-                    </a>
-                </div>
-
                 <ul class="list-inline nav-rodape">
                     <li class="list-inline-item">
                         <a @if(Request::is('sobre-nos')) class="active-menu-footer" @endif href="{{url('sobre-nos')}}">Empresa</a>
 
                     </li>
                     <li class="list-inline-item">
-                        <a href="#">Porfólio</a>
+                        <a href="#">Produtos</a>
 
                     </li>
                     <li class="list-inline-item">
-                        <a href="#">Clientes</a>
+                        <a href="#">Serviços</a>
+
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Portfólio</a>
+
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Blog</a>
 
                     </li>
                     <li class="list-inline-item">
                         <a href="#">Contato</a>
 
                     </li>
+
                 </ul>
 
             </div>
         </div>
     </div>
-    <div class="footer-final text-center">
-        <p>Todos os direitos reservados ©  .  GCE/SA Engenharia</p>
+    <section>
+        <div class="container text-center">
+            <a href="{{url('/')}}">
+                <img src="{{url('site/img/logo-rodape.png')}}" class="img-fluid" />
+            </a>
+        </div>
+    </section>
+    <div class="footer-final text-center bg-cinza-rodape">
+        <p>Todos os direitos reservados ©</p>
     </div>
 </footer>

@@ -5,7 +5,7 @@
         </div>
         <div class="caixa-texto-total-empresa">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="texto-empresa">
                         <h1>Seja qual for o
                             seu problema com
@@ -13,7 +13,7 @@
                             pela água,</h1>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="texto-empresa-direita">
                         <p>Nós temos soluções para o controle de praticamente todas
                             as situações em que a água pode causar problemas em sua casa ou na sua obra.</p>
@@ -25,7 +25,7 @@
         <div class="area-produtos-box">
             <div class="row">
 
-                <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-md-6 col-lg-4 col-12">
                     <a href="#">
                         <div class="produto-box">
                             <div class="topo-box text-center">
@@ -35,7 +35,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-md-6 col-lg-4 col-12">
                     <a href="#">
                         <div class="produto-box">
                             <div class="topo-box text-center">
@@ -47,7 +47,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-md-6 col-lg-4 col-12">
                     <a href="#">
                         <div class="produto-box">
                             <div class="topo-box text-center">
@@ -65,13 +65,13 @@
         <div class="caixa-texto-total-empresa caixa-texto-empresa-rodape">
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-12 col-sm-12">
                     <div class="texto-empresa-direita">
                         <p>Além da reveda técnica, somos uma empresa especializada na realização de todos os tipos de serviços de proteção contra umidade e infiltração, vedando e impermeabilizando todas as áreas que entrem, de alguma forma, em contato com a água.</p>
                         <p>Resolva seu problema com quem entende do assunto e você não precisará se preocupar tão cedo com umidade e infiltração.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="texto-empresa">
                         <h1>nós temos
                             soluções para

@@ -1,5 +1,5 @@
 <section id="banner-vermelho">
-    <div class="container">
 
-    </div>
+        <h1 class="fontTitulo">Somos experts em impermeabilização.</h1>
+
 </section>

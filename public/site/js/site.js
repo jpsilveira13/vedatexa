@@ -27,31 +27,34 @@ $('.languageSelect').on('click',function (e) {
     });
 
 });
-$('.owl-slider').owlCarousel({
+$('.owl-blog').owlCarousel({
 
 
-    autoplay: 3000,
+    //autoplay: 3000,
    // animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
+
   //  animateOut: 'fadeOut',
-    navSpeed:500,
+
     addClassActive: true,
     navigation: true,
     loop:true,
-    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-
     dots:false,
+
+    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 
     responsive:{
         0:{
             items:1,
 
         },
-        600:{
-            items:1,
+        928:{
+            items:2,
+            margin:15
         },
         1024:{
-            items:1,
+            items:3,
+            margin:15
+
         }
     }
 });
@@ -148,8 +151,29 @@ $('.languageSelect').on('click',function (e) {
     });
 
 });
+console.log(document.body.scrollWidth);
+function resizeHeaderOnScroll() {
+    const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+        shrinkOn = 200,
+        headerEl = document.getElementById("mainNav");
 
+    if (distanceY > shrinkOn) {
+        headerEl.classList.add("smaller");
+    } else {
+        headerEl.classList.remove("smaller");
+    }
+}
 
+window.addEventListener("scroll", resizeHeaderOnScroll);
+
+function onSmaller() {
+    if( window.pageYOffset > 200){
+        $('#mainNav').addClass('smaller');
+    }
+}
+$(document).ready(function(){
+  onSmaller();
+});
 
 
 

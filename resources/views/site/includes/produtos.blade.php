@@ -6,7 +6,7 @@
         <div class="area-produtos-box">
             <div class="row">
 
-                <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-md-6 col-lg-4 col-12">
                     <a href="#">
                         <div class="produto-box">
                             <div class="topo-box text-center">
@@ -18,7 +18,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-md-6 col-lg-4 col-12">
                     <a href="#">
                         <div class="produto-box">
                             <div class="topo-box text-center">
@@ -30,7 +30,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-md-6 col-lg-4 col-12">
                     <a href="#">
                         <div class="produto-box">
                             <div class="topo-box text-center">

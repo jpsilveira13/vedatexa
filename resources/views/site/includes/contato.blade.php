@@ -1,7 +1,14 @@
 <section id="contato">
+
     <div class="container">
+        <div class="area-titulo">
+            <h1 class="fontTitulo">Contato</h1>
+        </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col">
+                <div class="bg-fundo-mensagem"></div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-6 col-12">
                 <div class="area-form">
                     <form class="form-contato form-geral">
                         <div class="form-group">
@@ -24,18 +31,21 @@
                           <textarea class="form-control" rows="6"></textarea>
 
                         </div>
-                        <button type="submit" class="btn btn-default pull-right">Enviar <i class="fa fa-chevron-right" aria-hidden="true"></i> </button>
+                        <button type="submit" class="btn btn-default btn-contato pull-right">Enviar <i class="fa fa-chevron-right" aria-hidden="true"></i> </button>
                     </form>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="area-form-texto">
-                    <h1 class="fontTitulo">Fale<br /> Conosco</h1>
-                    <p>Você pode entrar em contato conosco facilmente enviando sua mensagem pelo formulário ao lado. Sua resposta será enviada o mais breve possível.</p>
-                    <span>(61) 3363-9039</span><br />
-                    <span><a href="mailto:name@email.com">gce@gce.com.br</a></span><br />
-                    <span>SCIA Quadra 14, Conjunto 06 - Lote 1</span><br />
-                    <span>CEP: 71250-100 - Guará/DF</span>
+                    <h1 class="fontTitulo">Entre<br /> em contato conosco</h1>
+                    <span class="fontTituloContato">(34) 3338-3020</span><br />
+                    <span class="fontTituloContato">(34) 99115-3020</span><br />
+                    <br />
+                    <span><a href="mailto:name@email.com">vedatexa@vedatexa.com.br</a></span><br />
+                    <br />
+                    <span>Av. Santa Beatriz da Silva, 1938</span><br />
+                    <span>Santa Maria - Uberaba / MG</span><br />
+                    <span>CEP: 38050-000</span>
                 </div>
             </div>
         </div>
